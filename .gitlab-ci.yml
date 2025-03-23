@@ -1,0 +1,26 @@
+# .gitlab-ci.yml  
+stages:  
+  - test  
+  - build  
+  - deploy  
+
+unit_tests:  
+  stage: test  
+  image: python:3.10  
+  script:  
+    - pip install -r requirements.txt  
+    - pytest tests/  
+
+build_image:  
+  stage: build  
+  image: docker:latest  
+  services:  
+    - docker:dind  
+  script:  
+    - docker build -t automl-self-improvement:$CI_COMMIT_SHA .  
+
+deploy_k8s:  
+  stage: deploy  
+  image: bitnami/kubectl:latest  
+  script:  
+    - kubectl apply -f scripts/k8s-deployment.yaml  
