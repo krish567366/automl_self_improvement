@@ -2,7 +2,6 @@
 
 [![PyPI Version](https://img.shields.io/pypi/v/automl_self_improvement)](https://pypi.org/project/automl_self_improvement/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![CI/CD](https://github.com/yourusername/automl-self-improvement/actions/workflows/main.yml/badge.svg)](https://github.com/yourusername/automl-self-improvement/actions)
 [![Documentation](https://img.shields.io/badge/docs-available-brightgreen)](https://your-docs-site.com)
 
 **A production-grade framework for autonomous AI model optimization, combining meta-learning, hybrid hyperparameter tuning, and secure MLOps.**  
@@ -40,7 +39,7 @@ docker run -p 8000:8000 automl:latest
 
 ### From Source
 ```bash
-git clone https://github.com/yourusername/automl-self-improvement
+git clone https://github.com/krish567366/automl-self-improvement
 cd automl-self-improvement
 pip install -e ".[dev]"
 ```
@@ -122,9 +121,9 @@ params, metrics = optimizer.optimize()  # Accuracy vs Latency vs Memory
 ## 📚 Documentation
 
 Explore these resources:
-- [API Reference](https://your-docs-site.com/api) - Full spec for endpoints and SDK
-- [Tuning Strategies](https://your-docs-site.com/strategies) - When to use BO vs RL vs EA
-- [Security Guidelines](https://your-docs-site.com/security) - RBAC, secrets management
+- [API Reference](https://github.com/krish567366/automl_self_improvement/docs/API_REFERENCE.md) - Full spec for endpoints and SDK
+- [Tuning Strategies](https://github.com/krish567366/automl_self_improvement/docs/TUNING_STRATEGIES.md) - When to use BO vs RL vs EA
+- [Security Guidelines](https://github.com/krish567366/automl_self_improvement/docs/SECURITY_GUIDELINES.md) - RBAC, secrets management
 
 ---
 
@@ -160,7 +159,7 @@ If used in research:
   year = {2025},
   publisher = {GitHub},
   journal = {GitHub repository},
-  howpublished = {\url{https://github.com/yourusername/automl-self-improvement}}
+  howpublished = {\url{https://github.com/krish567366/automl-self-improvement}}
 }
 ```
 

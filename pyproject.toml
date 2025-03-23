@@ -36,9 +36,9 @@ dependencies = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/yourusername/automl-self-improvement"
+Homepage = "https://github.com/krish567366/automl-self-improvement"
 Documentation = "https://your-docs-site.com"
-Repository = "https://github.com/yourusername/automl-self-improvement"
+Repository = "https://github.com/krish567366/automl-self-improvement"
 
 [tool.setuptools.packages.find]
 where = ["src"]
