@@ -121,9 +121,9 @@ params, metrics = optimizer.optimize()  # Accuracy vs Latency vs Memory
 ## 📚 Documentation
 
 Explore these resources:
-- [API Reference](https://github.com/krish567366/automl_self_improvement/docs/API_REFERENCE.md) - Full spec for endpoints and SDK
-- [Tuning Strategies](https://github.com/krish567366/automl_self_improvement/docs/TUNING_STRATEGIES.md) - When to use BO vs RL vs EA
-- [Security Guidelines](https://github.com/krish567366/automl_self_improvement/docs/SECURITY_GUIDELINES.md) - RBAC, secrets management
+- [API Reference](https://github.com/krish567366/automl_self_improvement/blob/main/docs/API_REFERENCE.md) - Full spec for endpoints and SDK
+- [Tuning Strategies](https://github.com/krish567366/automl_self_improvement/blob/main/docs/TUNING_STRATEGIES.md) - When to use BO vs RL vs EA
+- [Security Guidelines](https://github.com/krish567366/automl_self_improvement/blob/main/docs/SECURITY_GUIDELINES.md) - RBAC, secrets management
 
 ---
 
