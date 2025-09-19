@@ -3,7 +3,7 @@ from setuptools import setup, find_packages
 
 setup(  
     name="automl_self_improvement",  
-    version="0.1.0",  
+    version="1.0.0",  
     packages=find_packages(where="src"),  
     package_dir={"": "src"},  
     install_requires=[  
